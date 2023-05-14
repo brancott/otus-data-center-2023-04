@@ -31,5 +31,13 @@
 
 10.10.2.4/31
 
+ip адреса на интерфейсах настраиваем командами
+
+Switch(config)#interface Ethernet X
+
+Switch(config-if)#no switchport
+
+Switch(config-if)#ip address _ip-address_ _mask_
+
 
 
