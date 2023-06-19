@@ -166,7 +166,7 @@ end
 **Полный конфиг Spine2**
 
 <details>
-<summary>Spine1(config)#sh run</summary>
+<summary>Spine2(config)#sh run</summary>
 <pre><code>
 ! Command: show running-config
 ! device: Spine2 (vEOS, EOS-4.21.1.1F)
@@ -242,7 +242,7 @@ end
 **Полный конфиг Leaf1**
 
 <details>
-<summary>Spine1(config)#sh run</summary>
+<summary>Leaf1(config)#sh run</summary>
 <pre><code>
 ! Command: show running-config
 ! device: Leaf1 (vEOS, EOS-4.21.1.1F)
@@ -312,7 +312,7 @@ end
 **Полный конфиг Leaf2**
 
 <details>
-<summary>Spine1(config)#sh run</summary>
+<summary>Leaf2(config)#sh run</summary>
 <pre><code>
 ! Command: show running-config
 ! device: Leaf2 (vEOS, EOS-4.21.1.1F)
@@ -381,7 +381,7 @@ end
 **Полный конфиг Leaf3**
 
 <details>
-<summary>Spine1(config)#sh run</summary>
+<summary>Leaf3(config)#sh run</summary>
 <pre><code>
 ! Command: show running-config
 ! device: Leaf3 (vEOS, EOS-4.21.1.1F)
