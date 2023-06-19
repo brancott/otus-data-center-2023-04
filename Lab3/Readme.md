@@ -1,4 +1,4 @@
-# Underlay. OSPF
+# Underlay. ISIS
 
 ## Цель:
 
