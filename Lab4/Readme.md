@@ -180,6 +180,23 @@ interface Ethernet8
 interface Loopback0
    ip address 10.0.0.1/32
 !
+interface Management1
+!
+ip routing
+!
+peer-filter AS_FILTER
+   10 match as-range 65001-65999 result accept
+!
+router bgp 65000
+   router-id 10.0.0.1
+   timers bgp 1 3
+   maximum-paths 4
+   bgp listen range 172.16.1.0/24 peer-group LEAFS peer-filter AS_FILTER
+   neighbor LEAFS peer group
+   neighbor LEAFS bfd
+   network 10.0.0.1/32
+!
+end
 </code></pre>
 </details>
 
