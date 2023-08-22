@@ -47,7 +47,7 @@ NXOS3 - 1.1.1.1/31
 feature vpc
 feature lacp
 
-* Настраиваем Keep Alive Link на портах Et 1/4
+*Настраиваем Keep Alive Link на портах Et 1/4*
 
 *Сперва создаем отдельный vrf*
 
