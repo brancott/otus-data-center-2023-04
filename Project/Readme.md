@@ -71,6 +71,10 @@ router-id 192.168.10.X
 
  network ip_lo100_sec/32 area 0.0.0.0
 
+*На физических портах задаем тип линка как point-to-point*
+
+ip ospf network point-to-point
+
  **Проверяем, что видим соседей**
 
  ![](images/ospf_nei.jpg)
@@ -237,7 +241,7 @@ neighbor leaf activate
 
 vlan 10,20,30,40,50,60,70
 
-*Часть vlanov (50 и 60) будет использовать distributed gateway внутои фабрики, остальные будут маршрутизироваться через Firewall для фильтрации траффика*
+*Часть vlanov (50,60 и 70) будет использовать distributed gateway внутои фабрики, остальные будут маршрутизироваться через Firewall для фильтрации траффика*
 
 *для вланов 50, 60 и 70*
 
